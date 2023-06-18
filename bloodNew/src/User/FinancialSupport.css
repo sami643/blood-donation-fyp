@@ -1,0 +1,49 @@
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    width: 40%;
+    padding: 23px;
+    border: 3px double;
+    margin:3%;
+    color: rgba(7, 2, 2, 0.55);
+    box-shadow: 3px 3px 3px #000;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+.box select{
+    color: #000000;
+    padding: 12px;
+    box-shadow: 2px 3px 12px #000;
+}
+.sub-box{
+    display: flex;
+    flex-direction: column;
+}
+.sub-box input{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 11px;
+    margin-bottom: 21px;
+    padding: 5px;
+    border-radius: 9px;
+}
+@media screen and (max-width:716px) {
+    .c{
+        flex-direction: column;
+    }
+    .box{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .sub-box input,.box select{
+        width: 80%;
+        margin-left: 10%;
+    }
+}

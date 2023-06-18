@@ -1,0 +1,153 @@
+
+  #showcase button {
+    display: inline-block;
+    background: rgb(66, 80, 232);
+    color: rgb(255, 253, 253);
+    text-decoration: double;
+    text-decoration: none;
+    padding: 15px 60px 15px 50px;
+    border: 1px solid rgb(154, 154, 154);
+    margin: 0.5em 0;
+  }
+
+  #showcase button:hover {
+    background: #062568;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  /* Header Showcase */
+
+  #showcase {
+    min-height: 450px;
+    color: rgb(31, 28, 28);
+    text-align: center;
+    background-image: url('../Images/23.jpg');
+
+
+
+  }
+
+
+
+  #showcase h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+
+  #showcase .content-wrap,
+  #section-a .content-wrap {
+    padding: 1.5em 1.5em;
+  }
+
+  /* Section A */
+
+  #section-a {
+       background: #f4f3f3;
+      
+    
+    color: #333;
+    padding-bottom: 2em;
+  }
+
+  /* Section B */
+
+  #section-b {
+    padding: 2em 1em 1em;
+     height: 30%;
+
+  }
+
+  #section-b ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #section-b li {
+    margin-bottom: 1em;
+    background: #eaeaea;
+    color: #333;
+    margin: 15px;
+  }
+
+
+  .card-content p {
+    padding: 0px 20px 10px 20px; 
+  }
+
+
+
+
+
+  /* Section C */
+
+  #section-c {
+    background: #f4f3f3;
+     
+    color: #333;
+    padding: 2em;
+  }
+
+
+  /* Footer */
+
+
+
+  /* Media Queries */
+
+  @media (min-width: 700px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    #section-a .content-text {
+      columns: 2;
+      column-gap: 2em;
+    }
+
+    #section-a .content-text p {
+      padding-top: 0;
+    }
+
+    .content-wrap,
+    #section-b ul {
+      grid-column: 2/4;
+    }
+
+    .box,
+    #main-footer div {
+      grid-column: span 2;
+    }
+
+    #section-b ul {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    #section-b li {
+      width: 50%;
+      
+    }
+
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+margin: 6%;
+  font-size: 15px;
+  text-align: center;
+  text-align:initial;
+}
+
+  }
+
+
+
+
+
+
+

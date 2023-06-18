@@ -1,0 +1,29 @@
+{
+  "name": "blooddonationsite",
+  "version": "1.0.0",
+  "description": "THis is My FYP ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samiullah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "google-translate-api": "^2.3.0",
+    "jai": "0.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.5",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemailer": "^6.7.5",
+    "nodemailer-mailgun-transport": "^2.1.4",
+    "nodemon": "^2.0.16",
+    "randomstring": "^1.2.2",
+    "translate-google-api": "^1.0.4"
+  }
+}

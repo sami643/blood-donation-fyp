@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+body {
+  width: 100vw;
+  background: rgba(0,0,0,0.5);
+  background-position: center;
+  color: aliceblue;
+  overflow: hidden;
+  font-size: 18px;
+  overflow: hidden;
+  font-family: 'Source Serif Pro', serif;
+}
+body{
+  overflow: visible;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,63 @@
+.popup {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    background-color: #cfcfcf;
+    padding: 14px;
+    border-radius: 17px;
+    box-shadow: 12px 12px 12px 12px #000;
+    z-index: 12;
+   bottom: 23%;
+}
+.popup button{
+    position: absolute;
+    right: 0px;
+    width: 31px;
+    background: red;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 9px;
+}
+.popup-inner{
+    padding: 12px;
+    text-align: center;
+    margin: 12px;
+}
+.popup-inner p{
+    padding: 14px;
+    font-size: 19px;
+    font-weight: bold;
+    background: black;
+    margin-top: 38px;
+    border-radius: 12px;
+}
+textarea{
+    border-radius: 12px;
+    padding: 12px;
+    background: #0a0a0aa6;
+    color: #000;
+}
+
+
+@media screen and (max-width:674px){
+    .bb{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:550px){
+    textarea{
+        width: 250px;
+    }
+}
+@media screen and (max-width:380px){
+    .popup{
+        bottom: 8%;
+    }
+    textarea{
+        width: 180px;
+    }
+    .bb{
+        margin-top: 10px;
+    }
+}

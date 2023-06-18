@@ -1,0 +1,16 @@
+.dd{
+    width: 30%;
+    background: rgb(221 221 221);
+    position: absolute;
+    top: 35%;
+    right: 34%;
+    box-shadow: rgb(6 24 44 / 40%) 0px 0px 0px 2px, rgb(6 24 44 / 65%) 0px 4px 6px -1px, rgb(255 255 255 / 8%) 0px 1px 0px inset;
+    padding-bottom: 24px;
+}
+.dd h4{
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    color: red;
+    cursor: pointer;
+}

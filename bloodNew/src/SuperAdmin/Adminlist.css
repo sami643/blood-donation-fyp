@@ -1,0 +1,32 @@
+body {
+    background: rgba(0,0,0,0.5);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+h4{
+    text-align: center;
+    margin: 23px;
+    text-decoration: underline;
+}
+
+table{
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+table th{
+    color: rgb(35, 34, 34);
+    background-color: rgb(73, 112, 73);
+   
+}
+
+table tr{
+    color: black;
+}
+
+@media screen and (max-width:400px){
+    .org{
+        overflow-x: scroll;
+    }
+}

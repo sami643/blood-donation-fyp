@@ -1,0 +1,60 @@
+.x{
+    position: relative;
+    top: -75px;
+    left: 93%;
+    font-size: 27px;
+    display: inline-block;
+    color: antiquewhite;
+    padding: 14px;
+    cursor: pointer;
+}
+.chat_cont{
+    display: block;
+    width: 60%;
+    position: absolute;
+    top: 43%;
+    z-index: 14;
+    background: #fff;
+}
+.h3{
+    width: 100%;
+    background: green;
+    margin-left: 0;
+    padding: 18px 0 17px 0;
+}
+.sender{
+    padding-left: 14px;
+    background: #ebebeb;
+    font-size: 18px;
+}
+.receiver {
+    margin-left: 39%;
+    font-size: 18px;
+}
+input{
+    width: 50%;
+    margin-left: 11%;
+    margin-right: 4%;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:750px) {
+    .x{
+        top: -82px;
+        left: 90%;
+    }
+}
+
+@media screen and (max-width:496px) {
+    .x{
+        top: -82px;
+        left: 84%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .x{
+        top: -88px;
+        left: 74%;
+    }
+}

@@ -1,0 +1,51 @@
+.containbox {
+    background-color: aliceblue;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 38%);
+    color: black;
+    padding: 12px;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+input{
+    width: 95%;
+    border-radius: 9px;
+    padding: 4px;
+}
+
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    
+}
+.containbox{
+    width: 25%;
+    background-color: aliceblue;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 38%);
+    color: black;
+    padding: 12px;
+    margin: 2%;
+    z-index: 1;
+}
+.butn{
+    text-align: center;
+    cursor: pointer;
+    margin: 2px;
+}
+button{
+    margin-right: 6px;
+}
+
+@media screen and (max-width:530px){
+  .containbox{
+      display: block;
+      width: 80%;
+      margin-left: 10%;
+  }
+}

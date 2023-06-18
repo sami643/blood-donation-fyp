@@ -1,0 +1,36 @@
+/* Text Area Coding Here */
+
+textarea {
+    width: 95%;
+    border-radius: 12px;
+    padding: 12px;
+    background: #fffdfda6;
+    color: #000;
+    font-size: 21px;
+    z-index: 1;
+}
+.contain-box {
+    background-color: aliceblue;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 38%);
+    color: black;
+    padding: 12px;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    z-index: 1;
+}
+
+input{
+    width: 95%;
+    border-radius: 9px;
+    padding: 4px;
+}
+
+@media screen and (max-width:530px){
+  .contain-box{
+      display: block;
+      width: 80%;
+      margin-left: 10%;
+  }
+}
